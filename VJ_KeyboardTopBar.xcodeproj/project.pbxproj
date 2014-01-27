@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB8F06C1894EF230037D5CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB8F06B1894EF230037D5CC /* Foundation.framework */; };
+		ECB8F06E1894EF230037D5CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB8F06D1894EF230037D5CC /* CoreGraphics.framework */; };
+		ECB8F0701894EF230037D5CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB8F06F1894EF230037D5CC /* UIKit.framework */; };
+		ECB8F0761894EF230037D5CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB8F0741894EF230037D5CC /* InfoPlist.strings */; };
+		ECB8F0781894EF230037D5CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB8F0771894EF230037D5CC /* main.m */; };
+		ECB8F07C1894EF230037D5CC /* VJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB8F07B1894EF230037D5CC /* VJAppDelegate.m */; };
+		ECB8F07F1894EF230037D5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB8F07D1894EF230037D5CC /* Main.storyboard */; };
+		ECB8F0821894EF230037D5CC /* VJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB8F0811894EF230037D5CC /* VJViewController.m */; };
+		ECB8F0841894EF230037D5CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB8F0831894EF230037D5CC /* Images.xcassets */; };
+		ECB8F08B1894EF230037D5CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB8F08A1894EF230037D5CC /* XCTest.framework */; };
+		ECB8F08C1894EF230037D5CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB8F06B1894EF230037D5CC /* Foundation.framework */; };
+		ECB8F08D1894EF230037D5CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB8F06F1894EF230037D5CC /* UIKit.framework */; };
+		ECB8F0951894EF230037D5CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB8F0931894EF230037D5CC /* InfoPlist.strings */; };
+		ECB8F0971894EF230037D5CC /* VJ_KeyboardTopBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB8F0961894EF230037D5CC /* VJ_KeyboardTopBarTests.m */; };
+		ECB8F0A41894EFF10037D5CC /* VJKeyboardTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB8F0A31894EFF10037D5CC /* VJKeyboardTopBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB8F08E1894EF230037D5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB8F0601894EF230037D5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB8F0671894EF230037D5CC;
+			remoteInfo = VJ_KeyboardTopBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC553AC218964968003C7BD3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		EC553AC318964968003C7BD3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		EC553AC418964969003C7BD3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		ECB8F0681894EF230037D5CC /* VJ_KeyboardTopBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VJ_KeyboardTopBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB8F06B1894EF230037D5CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECB8F06D1894EF230037D5CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECB8F06F1894EF230037D5CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECB8F0731894EF230037D5CC /* VJ_KeyboardTopBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VJ_KeyboardTopBar-Info.plist"; sourceTree = "<group>"; };
+		ECB8F0751894EF230037D5CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECB8F0771894EF230037D5CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECB8F0791894EF230037D5CC /* VJ_KeyboardTopBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VJ_KeyboardTopBar-Prefix.pch"; sourceTree = "<group>"; };
+		ECB8F07A1894EF230037D5CC /* VJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VJAppDelegate.h; sourceTree = "<group>"; };
+		ECB8F07B1894EF230037D5CC /* VJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VJAppDelegate.m; sourceTree = "<group>"; };
+		ECB8F07E1894EF230037D5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB8F0801894EF230037D5CC /* VJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VJViewController.h; sourceTree = "<group>"; };
+		ECB8F0811894EF230037D5CC /* VJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VJViewController.m; sourceTree = "<group>"; };
+		ECB8F0831894EF230037D5CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECB8F0891894EF230037D5CC /* VJ_KeyboardTopBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VJ_KeyboardTopBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB8F08A1894EF230037D5CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECB8F0921894EF230037D5CC /* VJ_KeyboardTopBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VJ_KeyboardTopBarTests-Info.plist"; sourceTree = "<group>"; };
+		ECB8F0941894EF230037D5CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECB8F0961894EF230037D5CC /* VJ_KeyboardTopBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VJ_KeyboardTopBarTests.m; sourceTree = "<group>"; };
+		ECB8F0A21894EFF10037D5CC /* VJKeyboardTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJKeyboardTopBar.h; sourceTree = "<group>"; };
+		ECB8F0A31894EFF10037D5CC /* VJKeyboardTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJKeyboardTopBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB8F0651894EF230037D5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8F06E1894EF230037D5CC /* CoreGraphics.framework in Frameworks */,
+				ECB8F0701894EF230037D5CC /* UIKit.framework in Frameworks */,
+				ECB8F06C1894EF230037D5CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8F0861894EF230037D5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8F08B1894EF230037D5CC /* XCTest.framework in Frameworks */,
+				ECB8F08D1894EF230037D5CC /* UIKit.framework in Frameworks */,
+				ECB8F08C1894EF230037D5CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB8F05F1894EF230037D5CC = {
+			isa = PBXGroup;
+			children = (
+				ECB8F0711894EF230037D5CC /* VJ_KeyboardTopBar */,
+				ECB8F0901894EF230037D5CC /* VJ_KeyboardTopBarTests */,
+				ECB8F06A1894EF230037D5CC /* Frameworks */,
+				ECB8F0691894EF230037D5CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB8F0691894EF230037D5CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8F0681894EF230037D5CC /* VJ_KeyboardTopBar.app */,
+				ECB8F0891894EF230037D5CC /* VJ_KeyboardTopBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB8F06A1894EF230037D5CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8F06B1894EF230037D5CC /* Foundation.framework */,
+				ECB8F06D1894EF230037D5CC /* CoreGraphics.framework */,
+				ECB8F06F1894EF230037D5CC /* UIKit.framework */,
+				ECB8F08A1894EF230037D5CC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB8F0711894EF230037D5CC /* VJ_KeyboardTopBar */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8F07A1894EF230037D5CC /* VJAppDelegate.h */,
+				ECB8F07B1894EF230037D5CC /* VJAppDelegate.m */,
+				ECB8F07D1894EF230037D5CC /* Main.storyboard */,
+				ECB8F0801894EF230037D5CC /* VJViewController.h */,
+				ECB8F0811894EF230037D5CC /* VJViewController.m */,
+				ECB8F0A11894EFCE0037D5CC /* VJKeyboardTopBar */,
+				ECB8F0831894EF230037D5CC /* Images.xcassets */,
+				ECB8F0721894EF230037D5CC /* Supporting Files */,
+			);
+			path = VJ_KeyboardTopBar;
+			sourceTree = "<group>";
+		};
+		ECB8F0721894EF230037D5CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8F0731894EF230037D5CC /* VJ_KeyboardTopBar-Info.plist */,
+				ECB8F0741894EF230037D5CC /* InfoPlist.strings */,
+				ECB8F0771894EF230037D5CC /* main.m */,
+				ECB8F0791894EF230037D5CC /* VJ_KeyboardTopBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB8F0901894EF230037D5CC /* VJ_KeyboardTopBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8F0961894EF230037D5CC /* VJ_KeyboardTopBarTests.m */,
+				ECB8F0911894EF230037D5CC /* Supporting Files */,
+			);
+			path = VJ_KeyboardTopBarTests;
+			sourceTree = "<group>";
+		};
+		ECB8F0911894EF230037D5CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8F0921894EF230037D5CC /* VJ_KeyboardTopBarTests-Info.plist */,
+				ECB8F0931894EF230037D5CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB8F0A11894EFCE0037D5CC /* VJKeyboardTopBar */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8F0A21894EFF10037D5CC /* VJKeyboardTopBar.h */,
+				ECB8F0A31894EFF10037D5CC /* VJKeyboardTopBar.m */,
+			);
+			path = VJKeyboardTopBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB8F0671894EF230037D5CC /* VJ_KeyboardTopBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB8F09A1894EF230037D5CC /* Build configuration list for PBXNativeTarget "VJ_KeyboardTopBar" */;
+			buildPhases = (
+				ECB8F0641894EF230037D5CC /* Sources */,
+				ECB8F0651894EF230037D5CC /* Frameworks */,
+				ECB8F0661894EF230037D5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VJ_KeyboardTopBar;
+			productName = VJ_KeyboardTopBar;
+			productReference = ECB8F0681894EF230037D5CC /* VJ_KeyboardTopBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB8F0881894EF230037D5CC /* VJ_KeyboardTopBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB8F09D1894EF230037D5CC /* Build configuration list for PBXNativeTarget "VJ_KeyboardTopBarTests" */;
+			buildPhases = (
+				ECB8F0851894EF230037D5CC /* Sources */,
+				ECB8F0861894EF230037D5CC /* Frameworks */,
+				ECB8F0871894EF230037D5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB8F08F1894EF230037D5CC /* PBXTargetDependency */,
+			);
+			name = VJ_KeyboardTopBarTests;
+			productName = VJ_KeyboardTopBarTests;
+			productReference = ECB8F0891894EF230037D5CC /* VJ_KeyboardTopBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB8F0601894EF230037D5CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VJ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Victor Jiang";
+				TargetAttributes = {
+					ECB8F0881894EF230037D5CC = {
+						TestTargetID = ECB8F0671894EF230037D5CC;
+					};
+				};
+			};
+			buildConfigurationList = ECB8F0631894EF230037D5CC /* Build configuration list for PBXProject "VJ_KeyboardTopBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = ECB8F05F1894EF230037D5CC;
+			productRefGroup = ECB8F0691894EF230037D5CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB8F0671894EF230037D5CC /* VJ_KeyboardTopBar */,
+				ECB8F0881894EF230037D5CC /* VJ_KeyboardTopBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB8F0661894EF230037D5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8F0841894EF230037D5CC /* Images.xcassets in Resources */,
+				ECB8F0761894EF230037D5CC /* InfoPlist.strings in Resources */,
+				ECB8F07F1894EF230037D5CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8F0871894EF230037D5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8F0951894EF230037D5CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB8F0641894EF230037D5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8F07C1894EF230037D5CC /* VJAppDelegate.m in Sources */,
+				ECB8F0821894EF230037D5CC /* VJViewController.m in Sources */,
+				ECB8F0A41894EFF10037D5CC /* VJKeyboardTopBar.m in Sources */,
+				ECB8F0781894EF230037D5CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8F0851894EF230037D5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8F0971894EF230037D5CC /* VJ_KeyboardTopBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB8F08F1894EF230037D5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB8F0671894EF230037D5CC /* VJ_KeyboardTopBar */;
+			targetProxy = ECB8F08E1894EF230037D5CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB8F0741894EF230037D5CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB8F0751894EF230037D5CC /* en */,
+				EC553AC318964968003C7BD3 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECB8F07D1894EF230037D5CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB8F07E1894EF230037D5CC /* Base */,
+				EC553AC218964968003C7BD3 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB8F0931894EF230037D5CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB8F0941894EF230037D5CC /* en */,
+				EC553AC418964969003C7BD3 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB8F0981894EF230037D5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECB8F0991894EF230037D5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB8F09B1894EF230037D5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VJ_KeyboardTopBar/VJ_KeyboardTopBar-Prefix.pch";
+				INFOPLIST_FILE = "VJ_KeyboardTopBar/VJ_KeyboardTopBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECB8F09C1894EF230037D5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VJ_KeyboardTopBar/VJ_KeyboardTopBar-Prefix.pch";
+				INFOPLIST_FILE = "VJ_KeyboardTopBar/VJ_KeyboardTopBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECB8F09E1894EF230037D5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VJ_KeyboardTopBar.app/VJ_KeyboardTopBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VJ_KeyboardTopBar/VJ_KeyboardTopBar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VJ_KeyboardTopBarTests/VJ_KeyboardTopBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECB8F09F1894EF230037D5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VJ_KeyboardTopBar.app/VJ_KeyboardTopBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VJ_KeyboardTopBar/VJ_KeyboardTopBar-Prefix.pch";
+				INFOPLIST_FILE = "VJ_KeyboardTopBarTests/VJ_KeyboardTopBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB8F0631894EF230037D5CC /* Build configuration list for PBXProject "VJ_KeyboardTopBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB8F0981894EF230037D5CC /* Debug */,
+				ECB8F0991894EF230037D5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB8F09A1894EF230037D5CC /* Build configuration list for PBXNativeTarget "VJ_KeyboardTopBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB8F09B1894EF230037D5CC /* Debug */,
+				ECB8F09C1894EF230037D5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB8F09D1894EF230037D5CC /* Build configuration list for PBXNativeTarget "VJ_KeyboardTopBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB8F09E1894EF230037D5CC /* Debug */,
+				ECB8F09F1894EF230037D5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB8F0601894EF230037D5CC /* Project object */;
+}
