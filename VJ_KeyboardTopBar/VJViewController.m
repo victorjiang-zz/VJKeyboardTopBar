@@ -70,4 +70,9 @@
     [self.view endEditing:YES];
 }
 
+- (void)associativeReferences
+{
+    
+}
+
 @end

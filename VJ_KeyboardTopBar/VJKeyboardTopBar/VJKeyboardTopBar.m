@@ -171,7 +171,6 @@
     }
 }
 
-
 - (void)keyboardWillShow:(NSNotification *)notification
 {
     CGRect keyboardFrame = [[[notification userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];
@@ -181,6 +180,7 @@
         [self.delegate topBarWillShow:self keyboardHeight:keyboardHeight];
     }
 }
+
 
 - (void)keyboardWillHidden:(NSNotification *)notification
 {

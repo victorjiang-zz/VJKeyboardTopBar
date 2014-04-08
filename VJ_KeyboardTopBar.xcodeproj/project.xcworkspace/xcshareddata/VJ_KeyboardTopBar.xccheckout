@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7BEDD171-09D0-4559-886C-C1C178ADD63D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VJ_KeyboardTopBar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>485BFE42-6F03-438D-A162-08F1D0916B3E</key>
+		<string>https://github.com/VictorJiang/VJKeyboardTopBar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VJ_KeyboardTopBar.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>485BFE42-6F03-438D-A162-08F1D0916B3E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/VictorJiang/VJKeyboardTopBar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>485BFE42-6F03-438D-A162-08F1D0916B3E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>485BFE42-6F03-438D-A162-08F1D0916B3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VJKeyboardTopBar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

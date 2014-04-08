@@ -89,13 +89,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VJ_KeyboardTopBar/VJKeyboardTopBar/VJKeyboardTopBar.m"
-            timestampString = "412503721.167229"
+            filePath = "VJ_KeyboardTopBar/VJViewController.m"
+            timestampString = "412500608.392177"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
-            landmarkName = "-keyboardWillShow:"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-topBar:textInputViewDidBeginEditing:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -106,12 +106,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VJ_KeyboardTopBar/VJViewController.m"
-            timestampString = "412500608.392177"
+            timestampString = "412650984.948493"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "-topBar:textInputViewDidBeginEditing:"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

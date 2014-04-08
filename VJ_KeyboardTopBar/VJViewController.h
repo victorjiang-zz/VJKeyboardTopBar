@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "VJKeyboardTopBar.h"
-
+#import "objc/runtime.h"
 
 @interface VJViewController : UIViewController<VJKeyboardTopBarDelegate>
 
